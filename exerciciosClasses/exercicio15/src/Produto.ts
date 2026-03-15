@@ -5,7 +5,7 @@ export default class Produto {
         this.nome = nome;
         this.preco = preco;
     }
-    aplicarDesconto(desconto : number) {
-        console.log(`Preço com desconto: R$${this.preco * (1 - desconto/100)}`);
+    aplicarDesconto(percentual : number) {
+        console.log(`Preço com desconto: R$${this.preco * (1 - percentual/100)}`);
     }
 }
