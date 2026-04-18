@@ -1,0 +1,8 @@
+Crie Item com codigoBarras, nome, preco e estoque.
+Derive Alimento (adiciona dataValidade, calorias, vegano),
+Limpeza (adiciona volumeMl, toxico),
+Higiene (adiciona genero) e
+Eletrodomestico (adiciona voltagem, potenciaW).
+O método verificarValidade() só existe em Alimento.
+Implemente um método etiqueta() em todas as classes.
+Simule um caixa registrador somando o valor total da compra.
